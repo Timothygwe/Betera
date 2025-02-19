@@ -1,4 +1,4 @@
-SELECT *
+SELECT player_id
 FROM bets
 JOIN  ON bets.event_id = events.event_id
 WHERE
